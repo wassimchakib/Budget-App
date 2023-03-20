@@ -1,0 +1,15 @@
+.container {
+  padding: 1rem;
+}
+
+.login__header {
+  display: flex;
+  align-items: center;
+  padding: 1.6rem 0;
+  font-size: 1.4rem;
+}
+
+.login__header h2 {
+  text-align: center;
+  width: 100%;
+}
