@@ -1,6 +1,10 @@
 <h1> This is the list of categories </h1>
 <%= link_to 'Go to operations', group_operations_path(1) %>
 
-<%= link_to destroy_user_session_path, method: :delete do %>
+<%= link_to destroy_user_session_path do %>
   <i class="fas fa-arrow-left"></i>
+<% end %>
+
+<%= link_to new_group_path do %>
+  <button>Add new Categorie</button>
 <% end %>
