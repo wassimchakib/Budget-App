@@ -1,6 +1,23 @@
-<h1> This is the list of categories </h1>
-<%= link_to 'Go to operations', group_operations_path(1) %>
+<%= stylesheet_link_tag 'groups/index', media: 'all' %>
+<div class="categorie__header">
+  <h1 class="categorie__title"> Categories </h1>
+  <%= link_to destroy_user_session_path do %>
+    <i class="fas fa-sign-out-alt"></i>
+  <% end %>
+</div>
 
-<%= link_to destroy_user_session_path, method: :delete do %>
-  <i class="fas fa-arrow-left"></i>
+<div class="categories__container">
+  <% @categories.each do |categorie| %>
+    <%= link_to group_operations_path(categorie.id) do %>
+      <div class="categorie__item">
+        <img src=<%= categorie.icon %> alt=<%= categorie.name %>>
+        <h2><%= categorie.name %></h2>
+        <p>Total spent:$<span><%= categorie.total_spent %></span></p>
+      </div>
+    <% end %>
+  <% end %>
+</div>
+
+<%= link_to new_group_path do %>
+  <button class="categorie__add">Add new Categorie</button>
 <% end %>

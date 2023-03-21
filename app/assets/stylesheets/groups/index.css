@@ -1,0 +1,52 @@
+.categorie__header {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.categorie__title {
+  font-size: 1.6rem;
+  flex: 1;
+  text-align: center;
+}
+
+.fa-sign-out-alt {
+  font-size: 1.6rem;
+}
+
+.categories__container {
+  width: 100%;
+  padding: 1rem;
+}
+
+.categorie__item {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.categorie__item img {
+  flex: 1;
+  width: 30%;
+}
+
+.categorie__item h2 {
+  flex: 2;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.categorie__item p {
+  position: absolute;
+  right: 0.5rem;
+  bottom: 0.5rem;
+}
+
+.categorie__add {
+  width: 100%;
+  padding: 1rem;
+}
