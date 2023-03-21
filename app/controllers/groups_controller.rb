@@ -12,7 +12,9 @@ class GroupsController < ApplicationController
     @categorie.user = current_user
     if @categorie.save
       redirect_to groups_path
+      flash[:notice] = 'Categorie created successfully'
     else
+      flash[:error] = "Can't be blank, record didn't get saved"
       render :new
     end
   end
