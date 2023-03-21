@@ -1,7 +1,7 @@
 <%= stylesheet_link_tag 'sessions/new', media: 'all' %>
 <div class="container">
   <div class="login__header">
-    <%= link_to nil do %>
+    <%= link_to unauthenticated_root_path do %>
       <i class="fas fa-arrow-left"></i>
     <% end %>
     <h2>Log in</h2>
@@ -33,6 +33,11 @@
   <% end %>
   <div class="links">
     <%= render "devise/shared/links" %> 
+    <% if flash[:alert] %>
+  <div class="alert alert-danger">
+    <%= flash[:alert] %>
+  </div>
+<% end %>
   </div>
 
 </div>
