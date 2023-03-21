@@ -1,5 +1,7 @@
 class GroupsController < ApplicationController
-  def index; end
+  def index
+    @categories = Group.all.where(user: current_user).includes(:operations)
+  end
 
   def new
     @categorie = Group.new
