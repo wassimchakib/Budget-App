@@ -1,11 +1,18 @@
-<%= link_to destroy_user_session_path do %>
-  <i class="fas fa-sign-out-alt"></i>
-<% end %>
+<%= stylesheet_link_tag 'groups/new', media: 'all' %>
+<div class="categorie__header">
+  <%= link_to groups_path do %>
+    <i class="fas fa-arrow-left"></i>
+  <% end %>
+  <h1 class="categorie__title">Add Categorie</h1>
+  <%= link_to destroy_user_session_path do %>
+    <i class="fas fa-sign-out-alt"></i>
+  <% end %>
+</div>
+
 
 <div class="categorie__container">
   <%= form_for @categorie, url: groups_path do |f| %>
 
-    <h1 class="categorie__title">Add Categorie</h1>
     <div class="categorie__body">
       <div class="form-group">
         <%= f.label :name, class: "form-label" %><br/>
@@ -22,4 +29,5 @@
       <%= f.submit "Add new category", class: "btn btn-primary" %>
     </div>
   <% end %>
+
 </div>

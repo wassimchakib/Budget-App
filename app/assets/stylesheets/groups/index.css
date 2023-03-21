@@ -1,3 +1,19 @@
+.categorie__header {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.categorie__title {
+  font-size: 1.6rem;
+  flex: 1;
+  text-align: center;
+}
+
+.fa-sign-out-alt {
+  font-size: 1.6rem;
+}
+
 .categories__container {
   width: 100%;
   padding: 1rem;

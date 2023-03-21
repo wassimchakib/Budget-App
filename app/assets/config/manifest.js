@@ -5,3 +5,4 @@
 //= link sessions/new.css
 //= link registrations/new.css
 //= link groups/index.css
+//= link groups/new.css

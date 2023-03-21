@@ -1,9 +1,10 @@
 <%= stylesheet_link_tag 'groups/index', media: 'all' %>
-<h1> This is the list of categories </h1>
-
-<%= link_to destroy_user_session_path do %>
-  <i class="fas fa-sign-out-alt"></i>
-<% end %>
+<div class="categorie__header">
+  <h1 class="categorie__title"> Categories </h1>
+  <%= link_to destroy_user_session_path do %>
+    <i class="fas fa-sign-out-alt"></i>
+  <% end %>
+</div>
 
 <div class="categories__container">
   <% @categories.each do |categorie| %>
