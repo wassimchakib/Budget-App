@@ -7,3 +7,4 @@
 //= link groups/index.css
 //= link groups/new.css
 //= link operations/index.css
+//= link operations/new.css
