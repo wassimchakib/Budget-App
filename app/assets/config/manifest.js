@@ -6,3 +6,4 @@
 //= link registrations/new.css
 //= link groups/index.css
 //= link groups/new.css
+//= link operations/index.css
