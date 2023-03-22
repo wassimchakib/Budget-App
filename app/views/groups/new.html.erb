@@ -28,6 +28,13 @@
     <div class="categorie__footer">
       <%= f.submit "Add new category", class: "btn btn-primary" %>
     </div>
+  
+    <% if flash[:error].present? %>
+      <div class="alert alert-danger" role="alert">
+        <%= flash[:error] %>
+      </div>
+    <% end %>
   <% end %>
+
 
 </div>
