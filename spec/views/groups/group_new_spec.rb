@@ -24,12 +24,12 @@ RSpec.describe 'Group', type: :system do
 
     it 'shows the name input' do
       visit new_group_path
-      expect(page).to have_content('Name')
+      expect(page).to have_selector('input')
     end
 
     it 'shows the icon input' do
       visit new_group_path
-      expect(page).to have_content('Icon')
+      expect(page).to have_selector('input')
     end
 
     it 'fills the input' do

@@ -1,7 +1,17 @@
+.container {
+  background-color: var(--color-black-light);
+  height: 100vh;
+}
+
 .categorie__header {
+  position: relative;
   display: flex;
   align-items: center;
-  padding: 0.5rem;
+  padding: 1rem;
+  font-size: 1.4rem;
+  background-color: var(--color-blue);
+  color: #fff;
+  z-index: 2;
 }
 
 .categorie__title {
@@ -17,7 +27,6 @@
 
 .categorie__container {
   width: 100%;
-  padding: 1rem;
 }
 
 .form-group {
@@ -37,8 +46,17 @@
   padding: 0.5rem;
 }
 
+.categorie__footer {
+  padding: 1rem;
+  background-color: var(--color-green);
+  margin-top: 1rem;
+}
+
 .categorie__footer input {
   padding: 1rem;
   width: 100%;
-  margin-top: 1rem;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  text-transform: uppercase;
 }
