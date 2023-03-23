@@ -7,6 +7,6 @@ class Group < ApplicationRecord
   validates :icon, presence: true
 
   def total_spent
-    operations.map(&:amount).sum
+    operations.map(&:amount).sum.round(2)
   end
 end
