@@ -8,3 +8,4 @@
 //= link groups/new.css
 //= link operations/index.css
 //= link operations/new.css
+//= link pages/splash.css
