@@ -53,6 +53,26 @@ The Budget app is about building a mobile web application where you can manage y
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- Presentation Video -->
+### Presentation Video
+- Click [here](https://drive.google.com/file/d/1ibRnJS2FLG9nV2Sul6dOs0wzMVY81Kdw/view?usp=sharing) to see the presentation video
+
+<!-- Live Demo -->
+
+
+### Live Demo <a name="live-demo"></a>
+
+- Click [here](https://budget-app-ed1p.onrender.com) to access to the app demo.
+- You can use the following information to login to the app
+
+```
+email: test@test.com
+password: 123456
+```
+**_NB: the sign up function is working but you can't receive an email currently to confirm your account _**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
