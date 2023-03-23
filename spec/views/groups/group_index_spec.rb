@@ -39,7 +39,7 @@ RSpec.describe 'Group', type: :system do
 
     it 'clicks on add new categorie' do
       visit groups_path
-      click_button 'Add new Categorie'
+      click_button 'Add new Category'
       expect(page).to have_content('Add Categorie')
     end
   end

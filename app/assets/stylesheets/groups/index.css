@@ -74,4 +74,7 @@
 .add__section {
   padding: 1rem;
   background-color: var(--color-green);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
