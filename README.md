@@ -53,10 +53,6 @@ The Budget app is about building a mobile web application where you can manage y
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- Presentation Video -->
-### Presentation Video
-- Click [here](https://drive.google.com/file/d/1ibRnJS2FLG9nV2Sul6dOs0wzMVY81Kdw/view?usp=sharing) to see the presentation video
-
 <!-- Live Demo -->
 
 
