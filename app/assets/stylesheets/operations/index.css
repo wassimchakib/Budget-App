@@ -1,6 +1,12 @@
+.container {
+  background-color: var(--color-black-light);
+  min-height: 100vh;
+}
+
 table {
   border-collapse: collapse;
   width: 100%;
+  background-color: #fff;
 }
 
 table tr td {
@@ -22,9 +28,14 @@ td img {
 }
 
 .operation__header {
+  position: relative;
   display: flex;
   align-items: center;
-  padding: 0.5rem;
+  padding: 1rem;
+  font-size: 1.4rem;
+  background-color: var(--color-blue);
+  color: #fff;
+  z-index: 2;
 }
 
 .operation__title {
@@ -50,9 +61,19 @@ td img {
   padding: 1rem;
   margin-bottom: 1rem;
   font-size: 1rem;
+  background-color: #fff;
 }
 
 .operation__add {
   width: 100%;
   padding: 1rem;
+  border: 1px solid #fff;
+  background: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.add__section {
+  padding: 1rem;
+  background-color: var(--color-green);
 }
