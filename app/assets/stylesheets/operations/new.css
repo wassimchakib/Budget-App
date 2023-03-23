@@ -1,7 +1,12 @@
 .operation__header {
+  position: relative;
   display: flex;
   align-items: center;
-  padding: 0.5rem;
+  padding: 1rem;
+  font-size: 1.4rem;
+  background-color: var(--color-blue);
+  color: #fff;
+  z-index: 2;
 }
 
 .operation__title {
@@ -17,7 +22,6 @@
 
 .operation__container {
   width: 100%;
-  padding: 1rem;
 }
 
 .form-group {
@@ -37,8 +41,21 @@
   padding: 0.5rem;
 }
 
+.operation__footer {
+  padding: 1rem;
+  background-color: var(--color-green);
+  margin-top: 1rem;
+}
+
 .operation__footer input {
   padding: 1rem;
   width: 100%;
-  margin-top: 1rem;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#groups {
+  flex: 1;
 }
