@@ -24,12 +24,12 @@ RSpec.describe 'Group', type: :system do
 
     it 'shows the name input' do
       visit new_group_operation_path(group.id)
-      expect(page).to have_content('Name')
+      expect(page).to have_selector('input')
     end
 
     it 'shows the amount input' do
       visit new_group_operation_path(group.id)
-      expect(page).to have_content('Amount')
+      expect(page).to have_selector('input')
     end
 
     it 'shows the Categories input' do

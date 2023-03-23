@@ -15,13 +15,11 @@
 
     <div class="operation__body">
       <div class="form-group">
-        <%= f.label :name, class: "form-label" %><br/>
-        <%= f.text_field :name, autofocus: true, autocomplete: "name", class: "form-control" %>
+        <%= f.text_field :name, autofocus: true, placeholder:'Name', autocomplete: "name", class: "form-control" %>
       </div>
 
       <div class="form-group ">
-        <%= f.label :amount, class: "form-label" %><br/>
-        <%= f.text_field :amount, autocomplete: "amount", class: "form-control" %>
+        <%= f.text_field :amount, placeholder:'Amount',autocomplete: "amount", class: "form-control" %>
       </div>
   
       <% if @groups.any? %>

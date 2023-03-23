@@ -1,21 +1,36 @@
 .container {
-  padding: 1rem;
+  background-color: var(--color-black-light);
+  height: 100vh;
 }
 
 .register__header {
+  position: relative;
   display: flex;
   align-items: center;
-  padding: 1.6rem 0;
+  padding: 1rem;
   font-size: 1.4rem;
+  background-color: var(--color-blue);
+  color: #fff;
+  z-index: 2;
 }
 
 .register__header h2 {
   text-align: center;
   width: 100%;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+
+.fa-arrow-left {
+  font-size: 1.4rem;
 }
 
 .new_user {
-  margin-top: 3rem;
+  position: absolute;
+  padding-top: 4rem;
+  width: 100%;
+  top: 0;
 }
 
 .field {
@@ -23,15 +38,12 @@
   align-items: center;
   font-size: 1.2rem;
   width: 100%;
-  margin-bottom: 1rem;
-  justify-content: space-between;
 }
 
-.field input[type=email],
-.field input[type=text],
-.field input[type=password] {
-  flex: 2;
-  padding: 0.5rem;
+.field__input {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid var(--color-black-light);
 }
 
 .field input[type=checkbox] {
@@ -40,21 +52,26 @@
   height: 1rem;
 }
 
-.field label {
-  flex: 1;
-}
-
-.actions input {
-  width: 100%;
-  padding: 1rem;
+.submit-btn {
+  width: auto;
+  border: none;
   font-size: 1.2rem;
+  position: absolute;
+  right: 0.8rem;
+  top: 0.9rem;
+  background: none;
+  color: #fff;
+  text-transform: capitalize;
+  z-index: 2;
 }
 
 .links {
-  margin-top: 3rem;
+  position: relative;
+  margin-top: 15rem;
   display: flex;
   flex-direction: column;
-  row-gap: 0.2rem;
+  align-items: center;
+  color: var(--color-black-mid);
 }
 
 .container a {
@@ -66,4 +83,16 @@
   display: flex;
   flex-direction: column;
   row-gap: 0.8rem;
+}
+
+.alert-danger {
+  font-size: 1rem;
+  color: #fff;
+  background-color: red;
+  padding: 1rem;
+  width: 100%;
+}
+
+.field_with_errors {
+  width: 100%;
 }
