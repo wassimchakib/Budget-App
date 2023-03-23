@@ -9,3 +9,4 @@
 //= link operations/index.css
 //= link operations/new.css
 //= link pages/splash.css
+//= link passwords/new.css
