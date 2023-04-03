@@ -65,7 +65,7 @@ The Budget app is about building a mobile web application where you can manage y
 email: test@test.com
 password: 123456
 ```
-**_NB: the sign up function is working but you can't receive an email currently to confirm your account _**
+**_NB: the sign up function is working but you can't receive an email currently to confirm your account_**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
